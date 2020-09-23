@@ -269,6 +269,70 @@ summary {
   display: list-item;
 }
 
+body {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--additional-color);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /* outline: 2px solid red; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+footer {
+  background-color: var(--bg-color);
+}
+
+.section {
+  padding-top: 94px;
+}
+
+.section__title {
+  color: var(--title-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  margin: 0 0 50px;
+}
+
+.benefits__title--hidden,
+.portfolio__title--hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -713,13 +777,12 @@ summary {
   transition: background-color var(--transition-duration) var(--timing-function);
 }
 
-.footer-join__link:hover,
-.footer-join__link:focus {
-  background-color: var(--accent-color);
+.footer-join__link:hover, .footer-join__link:focus {
+  background-color: #2196f3;
 }
 
 .footer-join__link:hover .footer-join__icon {
-  fill: var(--additional-color);
+  fill: #ffffff;
 }
 
 /* footer-subscribe */
@@ -736,7 +799,7 @@ summary {
   margin: 0 0 20px;
 }
 
-.email-form__field {
+.footer-subscribe__input {
   width: 358px;
   background-color: transparent;
   padding: 15px 0 15px 16px;
