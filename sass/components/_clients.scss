@@ -21,20 +21,20 @@
     height: 90px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    transition: border-color 250ms var(--timing-function);
+    transition: border-color $transition-duration $timing-function;
   }
 
   &__icon {
     fill: #afb1b8;
-    transition: fill 250ms var(--timing-function);
+    transition: fill $transition-duration $timing-function;
   }
 
   &__link:hover,
   &__link:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
 
   &__link:hover &__icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
 }

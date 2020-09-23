@@ -53,7 +53,7 @@
     height: 44px;
     padding: 12px;
     border-radius: 50%;
-    transition: background-color 250ms var(--timing-function);
+    transition: background-color $transition-duration $timing-function;
   }
 
   &__icon {
@@ -63,10 +63,10 @@
 
   &__link:hover,
   &__link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 
   &__link:hover &__icon {
-    fill: var(--additional-color);
+    fill: $additional-color;
   }
 }
