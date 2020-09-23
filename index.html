@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -60,7 +60,7 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-        <div class="hero-container">
+        <div class="hero__container">
           <h1 class="hero__title">
             Эффективные решения <br />
             для вашего бизнеса
@@ -445,10 +445,8 @@
     <!-- Modal  -->
     <div class="backdrop backdrop--is-hidden" data-modal>
       <div class="modal">
-        <div class="modal-header">
-          <p class="modal-header__heading">
-            Оставьте свои данные, мы вам перезвоним
-          </p>
+        <div class="modal__header">
+          <p class="modal__heading">Оставьте свои данные, мы вам перезвоним</p>
           <button class="modal-close-button" data-modal-close>
             <svg class="modal-close-button__icon" width="11px" height="11px">
               <use href="./images/sprite.svg#cross-icon"></use>
