@@ -49,6 +49,34 @@ footer {
   background-color: var(--bg-color);
 }
 
+/* ДОБАВИТЬ!! 3 ПАРАГРАФА */
+.section {
+  padding-top: 94px;
+}
+
+.section__title {
+  color: var(--title-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  margin: 0 0 50px;
+}
+
+.benefits__title--hidden,
+.portfolio__title--hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*  */
+
 /* Logo */
 
 .logo {
@@ -103,6 +131,7 @@ footer {
 .nav__link:focus,
 .contacts__link:hover,
 .contacts__link:focus,
+/* ДОБАВИТЬ!! */
 .footer__address .footer-list__link:hover,
 .footer__address .footer-list__link :focus {
   color: var(--accent-color);
@@ -217,32 +246,6 @@ footer {
 
 /* Benefits section */
 
-.benefits,
-.examples {
-  padding-top: 94px;
-}
-
-.benefits__title--hidden,
-.portfolio__title--hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.section__title {
-  color: var(--title-color);
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  margin: 0 0 50px;
-}
-
 .benefits__title {
   color: var(--title-color);
   font-weight: 700;
@@ -299,9 +302,11 @@ footer {
 
 /* What we are doing */
 
+/* ДОБАВИТЬ!!  */
 .box {
   position: relative;
 }
+/*  */
 
 .examples {
   padding-bottom: 94px;
@@ -340,7 +345,7 @@ footer {
 
 .employee {
   background-color: var(--primary-bg-color);
-  padding: 94px 0;
+  padding-bottom: 94px;
 }
 
 .employee__list {
@@ -397,6 +402,7 @@ footer {
 }
 
 .social-links__icon,
+/* ДОБАВИТЬ В ФУТЕР */
 .footer-join__icon {
   fill: #afb1b8;
   transition: fill 250ms var(--timing-function);
@@ -414,7 +420,7 @@ footer {
 /* Our clients */
 
 .clients {
-  padding: 94px 0;
+  padding-bottom: 94px;
 }
 
 .clients__list {
