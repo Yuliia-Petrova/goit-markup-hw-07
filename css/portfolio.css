@@ -284,7 +284,6 @@ body {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid red; */
 }
 
 img {
@@ -305,6 +304,11 @@ footer {
   background-color: #2f303a;
 }
 
+.main {
+  display: flex;
+  align-items: center;
+}
+
 .section {
   padding-top: 94px;
 }
@@ -318,8 +322,7 @@ footer {
   margin: 0 0 50px;
 }
 
-.benefits__title--hidden,
-.portfolio__title--hidden {
+.section__title--hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -328,10 +331,6 @@ footer {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.portfolio {
-  padding: 94px 0;
 }
 
 .logo {
@@ -437,6 +436,10 @@ footer {
 .contacts__link:hover .contacts__tel,
 .contacts__link:hover .contacts__envelope {
   fill: #2196f3;
+}
+
+.portfolio {
+  padding: 94px 0;
 }
 
 .filters {
@@ -592,7 +595,6 @@ footer {
   margin-bottom: 0;
 }
 
-/* footer-join*/
 .footer-join {
   justify-content: center;
   max-width: 206px;
@@ -645,7 +647,6 @@ footer {
   fill: #ffffff;
 }
 
-/* footer-subscribe */
 .footer-subscribe {
   width: 570px;
 }
@@ -663,7 +664,6 @@ footer {
   width: 358px;
   background-color: transparent;
   padding: 15px 0 15px 16px;
-  font-family: Roboto;
   font-size: 16px;
   color: #ffffff;
   line-height: 1.25;
@@ -672,7 +672,6 @@ footer {
 }
 
 .subscribe-btn {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
