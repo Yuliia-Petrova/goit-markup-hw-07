@@ -271,6 +271,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   background-color: #ffffff;
+  font-size: 14px;
 }
 
 .list {
@@ -375,7 +376,6 @@ footer {
 .nav__link {
   color: #212121;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -416,7 +416,6 @@ footer {
 .contacts__link {
   color: #757575;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -488,7 +487,6 @@ footer {
 .benefits__title {
   color: #212121;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin: 0 0 10px;
@@ -535,7 +533,6 @@ footer {
 }
 
 .benefits__text {
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -567,7 +564,6 @@ footer {
   height: 70px;
   bottom: 0;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
@@ -704,7 +700,6 @@ footer {
 }
 
 .footer__address {
-  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 }
@@ -746,7 +741,6 @@ footer {
 .footer-join__text {
   width: 145px;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1, 14;
   text-transform: uppercase;
   color: #ffffff;
@@ -794,7 +788,6 @@ footer {
 
 .footer-subscribe__text {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1, 14;
   text-transform: uppercase;
   color: #ffffff;
@@ -986,7 +979,6 @@ footer {
 .policy__label {
   display: flex;
   align-items: center;
-  font-size: 14px;
   line-height: 1.71;
 }
 

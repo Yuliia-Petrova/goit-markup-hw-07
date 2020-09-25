@@ -1,8 +1,9 @@
 body {
   color: $primary-text-color;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.03em;
+  font-family: $font-family;
+  letter-spacing: $letter-spacing;
   background-color: $additional-color;
+  font-size: $font-size;
 }
 
 .list {
